@@ -15,10 +15,7 @@ Création de fonction linker pour appeler d'autres machines (ss formes de fichie
 
 
 
-
-
 ## Simulation de l'exécution d'une machine de Turing
-
 
 
 ### 1. Les stuctures de données utilisées 
@@ -42,7 +39,7 @@ Initialisation de l'état courant, l'état des bandes et la position des têtes 
 
 La machine universelle est ensuite créer  dans le *main.py* en prenant un mot en argument et en simulant le calcul de la machine sur le mot jusqu’à atteindre l’état final.
 
-### Code des Machines 
+### 4. Code des Machines 
 
 Appel de Machine de Turing, qu'on définit par une transition.
 
@@ -91,7 +88,7 @@ Pour COPY :
 
 Création de deux machines de Turing :
 
-### 1er Machine
+### 1ère Machine
 
 Multiplier deux nombres en binaire x et y en utilisant la méthode égyptienne.
 On initalise z (le résultat) à 0 et tant que x est supérieur strict à 0 on fait :
