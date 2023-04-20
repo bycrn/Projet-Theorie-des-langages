@@ -1,0 +1,25 @@
+// Effacer la bande numèro i : ERASE,i
+
+ERASE0,0
+ERASE0,0,>
+
+ERASE0,1
+ERASE0,1,>
+
+ERASE0,#
+ERASE0,#,>
+
+ERASE0,_
+ERASE1,_,<
+
+ERASE1,1
+ERASE1,_,<
+
+ERASE1,0
+ERASE1,_,<
+
+ERASE1,#
+ERASE1,_,<
+
+ERASE1,_
+accERASE,_,-

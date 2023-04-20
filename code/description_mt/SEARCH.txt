@@ -1,0 +1,24 @@
+// Positionner la tête de lecture sur le premier caractère a ∈ Σ 
+// sur la bande i : SEARCH,i,a
+
+SEARCH0,0
+SEARCH0,0,<
+
+SEARCH0,1
+SEARCH0,1,<
+
+SEARCH0,#
+SEARCH0,#,<
+
+SEARCH0,_
+SEARCH1,_,>
+
+SEARCH1,b
+SEARCH1,b,>
+
+SEARCH1,c
+SEARCH1,c,>
+
+SEARCH1,a
+accSEARCH,a,-
+

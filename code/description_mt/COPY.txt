@@ -1,0 +1,25 @@
+// Copier la bande i sur la bande j : COPY,i,j
+
+COPY0,0,_
+COPY0,0,_,<,-
+
+COPY0,1,_
+COPY0,1,_,<,-
+
+COPY0,#,_
+COPY0,#,_,<,-
+
+COPY0,_,_
+COPY1,_,_,>,-
+
+COPY1,0,_
+COPY1,0,0,>,>
+
+COPY1,1,_
+COPY1,1,1,>,>
+
+COPY1,#,_
+COPY1,#,#,>,>
+
+COPY1,_,_
+accCOPY,_,_,-,-

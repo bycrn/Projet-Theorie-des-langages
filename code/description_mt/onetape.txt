@@ -1,0 +1,17 @@
+//machine
+//nombre paire de 0
+
+I,0
+A,0,>
+
+A,0
+I,0,>
+
+I,1
+I,1,>
+
+A,1
+A,1,>
+
+I,_
+F,_,-

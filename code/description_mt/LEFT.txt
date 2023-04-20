@@ -1,0 +1,14 @@
+// Positionner la tête de lecture sur la lettre la plus à gauche
+// de la bande numèro i : LEFT,i
+
+LEFT,0
+LEFT,0,<
+
+LEFT,1
+LEFT,1,<
+
+LEFT,#
+LEFT,#,<
+
+LEFT,_
+accLEFT,_,-
